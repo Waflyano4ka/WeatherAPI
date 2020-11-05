@@ -142,7 +142,6 @@ class AddFragment : Fragment() {
             listOfTheCities.removeView(list)
         }
         list.addView(deleteButton)
-
         listOfTheCities.addView(list)
 
         var getCityData: City = activity as MainActivity
