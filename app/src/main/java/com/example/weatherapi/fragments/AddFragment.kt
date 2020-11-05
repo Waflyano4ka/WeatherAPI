@@ -145,7 +145,7 @@ class AddFragment : Fragment() {
 
         listOfTheCities.addView(list)
 
-        var getCityData: City = MainActivity()
+        var getCityData: City = activity as MainActivity
         getCityData.DataCitySave(cityList)
     }
 

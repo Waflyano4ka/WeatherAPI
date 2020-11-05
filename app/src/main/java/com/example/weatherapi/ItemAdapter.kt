@@ -22,8 +22,6 @@ class ItemAdapter (
             descriptionScr.text = image.feels_like.toString()
 
             itemView.setOnClickListener { listener(image) }
-
-
         }
     }
 
